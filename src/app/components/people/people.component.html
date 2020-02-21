@@ -1,0 +1,5 @@
+<app-person-item 
+  *ngFor="let person of peopleList" 
+  [person]="person"
+  (deletePerson)="deletePerson($event)">
+</app-person-item>
